@@ -6,6 +6,7 @@
 img.largeImage{
     width: 500px !important;
     height: 500px !important;
+    color:  aquamarine !important;
 }
 
 div.largeImage {
@@ -14,7 +15,7 @@ div.largeImage {
 }
 
 .productName {
-    font-size: 3em !important;
+    font-size: 6em !important;
 }
 
 .productGrid{
@@ -25,6 +26,25 @@ div.largeImage {
     content: "$";
 }
 
-.croseedout{
+.crossedout{
     text-decoration: line-through;
+    color: rgb(255, 0, 157);
+}
+
+.addButton {
+    background-color: rgb(194, 143, 251) !important;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19) !important;
+}
+
+.productLabel{
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+.sale{
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid #800080 !important;
+    text-align: center !important;
+    font-weight: bold !important;
 }

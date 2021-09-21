@@ -27,7 +27,7 @@ const ProductInfo=()=>{
                     </Typography>                                
                 </Grid>                
                 <Grid item lg={2}>                  
-                    <Typography className="dollars">                    
+                    <Typography className="dollars sale">                    
                         706.93                  
                     </Typography>                
                 </Grid>
@@ -71,7 +71,7 @@ const ProductInfo=()=>{
 
                 <Grid item lg = {10}/>
                 <Grid item lg = {4}>
-                    <Button variant = "contained" className = "cartButton">
+                    <Button variant = "contained" className = "addButton">
                         Add To Cart 
                     </Button>
                 </Grid>
