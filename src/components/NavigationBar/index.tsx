@@ -2,6 +2,10 @@ import "./index.css";
 import {Box, AppBar, Toolbar, IconButton, Typography} from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
+/**
+ * Elements for Navigation Bar
+ * @returns UI elements of Navigation Bar
+ */
 const NavigationBar = () => {
     return (
         <Box sx={{ flexGrow: 1 }}>
