@@ -1,5 +1,5 @@
 import "./index.css";
-import {Grid, Paper, Typography} from "@material-ui/core";
+import {Grid, InputLabel, Paper, Select, Typography, Button, MenuItem} from "@material-ui/core";
 
 const ProductInfo=()=>{
     return(
@@ -30,7 +30,52 @@ const ProductInfo=()=>{
                     <Typography className="dollars">                    
                         706.93                  
                     </Typography>                
-                </Grid>                 
+                </Grid>
+                <Grid item lg={8}/>
+                <Grid item lg={2}>
+                    <InputLabel id="color-label" className="productLabel">
+                        Color
+                    </InputLabel>
+                    <Select labelId="color-label" id="color-select" label="Color">
+                        <MenuItem value = "BLK"> Black </MenuItem>
+                        <MenuItem value = "BLU"> Blue </MenuItem>
+                        <MenuItem value = "BWN"> Brown </MenuItem>
+                    </Select>
+                </Grid>
+                <Grid item lg={2}>
+                    <InputLabel id="size-label" className="productLabel">
+                        Size
+                    </InputLabel>
+                    <Select labelId="size-label" id="size-select" label="Size">
+                        <MenuItem value = "30X32"> 30x32  </MenuItem>
+                        <MenuItem value = "30X34"> 30x34  </MenuItem>
+                        <MenuItem value = "32X32"> 32x32  </MenuItem>
+                        <MenuItem value = "34X32"> 34x32  </MenuItem>
+                        <MenuItem value = "36X34"> 36x34  </MenuItem>
+                    </Select>
+                </Grid>
+
+                <Grid item lg={8}/>
+                <Grid item lg={2}>
+                    <InputLabel id = "quantity-label" className = "productLabel">
+                        Quantity
+                    </InputLabel>
+                    <Select labelId = "quantity-label" id = "quantity-label" label = "Quantity">
+                        <MenuItem value = "1"> 1  </MenuItem>
+                        <MenuItem value = "2"> 2  </MenuItem>
+                        <MenuItem value = "3"> 3  </MenuItem>
+                        <MenuItem value = "4"> 4  </MenuItem>
+                        <MenuItem value = "5"> 5  </MenuItem>
+                    </Select>
+                </Grid>
+
+                <Grid item lg = {10}/>
+                <Grid item lg = {4}>
+                    <Button variant = "contained" className = "cartButton">
+                        Add To Cart 
+                    </Button>
+                </Grid>
+
                 <Grid item lg={12}/>                                             
                 </Grid>            
             </Grid>        

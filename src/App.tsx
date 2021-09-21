@@ -8,7 +8,7 @@ function App() {
     <React.Fragment>
       <CssBaseline />
       <ProductDetail />
-    </React.Fragment>
+    </React.Fragment> 
   );
 }
 
